@@ -1,8 +1,13 @@
 # Repo_CSFLE
 
-npm install mongodb-client-encryption
+First step is to create an IAM User with Admin Previleges or Having previlges to access Customer Master Key. 
+
+If you are creating a user with specific previledges Please refer to documentation : https://www.mongodb.com/docs/drivers/security/client-side-field-level-encryption-local-key-to-kms/
+
 
 npm install mongodb
+
+npm install mongodb-client-encryption
 
 Create 
 aws kms create-key --tags TagKey=owner, TagValue=<name> --description "Demo Key for FLE"
