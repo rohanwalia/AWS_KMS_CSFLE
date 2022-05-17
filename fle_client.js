@@ -60,8 +60,8 @@ function JSONSchemaCreator(keyId) {
 
 const jsonSchema = JSONSchemaCreator(base64KeyId); 
 
-const path = './master-key.txt';
-const localMasterKey = fs.readFileSync(path);
+//const path = './master-key.txt';
+//const localMasterKey = fs.readFileSync(path);
 
 const kmsProviders = {
   aws: {
