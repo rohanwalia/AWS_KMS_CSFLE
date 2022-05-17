@@ -12,9 +12,11 @@ Copy the ARN to be used in future
   
 Create Data Encryption Key
   Modify the fle_create_dataEncryption_KMS to replace the placeholders in <>
+  
   node fle_create_dataEncryption_KMS
   
 Modify the Client - Replace all the placeholders in <>
+  
   node fle_client.js
   
 
