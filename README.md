@@ -1,5 +1,7 @@
 # Repo_CSFLE
 
+This repo is step by step guide to set up and Demo MongoDB Client Side Field Level Encryption with Customer Master Key in AWS KMS.
+
 First step is to create an IAM User with Admin Previleges or Having previlges to access Customer Master Key. 
 
 If you are creating a user with specific previledges Please refer to documentation : https://www.mongodb.com/docs/drivers/security/client-side-field-level-encryption-local-key-to-kms/
