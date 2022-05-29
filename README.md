@@ -33,6 +33,7 @@ Read a document with schema and decrypted fields (Access to Master Key)
   
 Read a document with encrypted fields (No Access to Master Key)
   
+  node non_fle_read_client.js
   
 
   
