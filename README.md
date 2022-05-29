@@ -29,7 +29,7 @@ Create a New document with schema and encrypted fields.
   
 Read a document with schema and decrypted fields (Access to Master Key)
   
-  node
+  node fle_read_client.js
   
 Read a document with encrypted fields (No Access to Master Key)
   
