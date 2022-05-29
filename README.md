@@ -22,9 +22,17 @@ Create Data Encryption Key
   
   node fle_create_dataEncryption_KMS
   
-Modify the Client - Replace all the placeholders in <>
+Create a New document with schema and encrypted fields.
+  Modify the Client - Replace all the placeholders in <>
   
   node fle_client.js
+  
+Read a document with schema and decrypted fields (Access to Master Key)
+  
+  node
+  
+Read a document with encrypted fields (No Access to Master Key)
+  
   
 
   
